@@ -5,6 +5,7 @@ import Banner from "./component/navbar/Banner";
 import Step from "./pages/Section3";
 import Temoin from "./pages/Section4";
 import Guarantee from "./pages/Section5";
+import Load from "./pages/Chargement";
 import Honest from "./pages/Section6";
 import Question from "./pages/Section7";
 import Footer from "./component/Footer/Footer";
@@ -31,36 +32,40 @@ function App() {
 
   return (
     <div className="position-relative ">
-      <FirebaseContext.Provider value={files}>
-        <ScrollingProvider>
-          <Navbar></Navbar>
+      {files ? (
+        <FirebaseContext.Provider value={files}>
+          <ScrollingProvider>
+            <Navbar></Navbar>
 
-          <Section id="home">
-            <Banner />
-          </Section>
+            <Section id="home">
+              <Banner />
+            </Section>
 
-          <Section id="work">
-            <Step />
-          </Section>
+            <Section id="work">
+              <Step />
+            </Section>
 
-          <Section id="about">
-            <Guarantee />
-          </Section>
+            <Section id="about">
+              <Guarantee />
+            </Section>
 
-          <Section id="schedule">
-            <Honest />
-          </Section>
+            <Section id="schedule">
+              <Honest />
+            </Section>
 
-          <Section id="reviews">
-            <Temoin />
-          </Section>
-          <Section id="blog">
-            <Question />
-          </Section>
+            <Section id="reviews">
+              <Temoin />
+            </Section>
+            <Section id="blog">
+              <Question />
+            </Section>
 
-          <Footer />
-        </ScrollingProvider>
-      </FirebaseContext.Provider>
+            <Footer />
+          </ScrollingProvider>
+        </FirebaseContext.Provider>
+      ) : (
+        <Load />
+      )}
     </div>
   );
 }
