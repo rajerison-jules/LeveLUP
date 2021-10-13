@@ -6,7 +6,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "./Fonts/font/CircularStd-Black.woff";
 import "animate.css";
-import storage, { FirebaseContext } from "./Firebase";
+
 ReactDOM.render(
   <React.StrictMode>
     <FirebaseContext.Provider value={storage}>

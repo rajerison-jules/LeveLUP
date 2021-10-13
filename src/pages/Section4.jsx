@@ -19,7 +19,7 @@ export default function Section4() {
       }
     : [];
   return (
-    <div id="temoin" className="step--component">
+    <div id="temoin" className="sec4 step--component">
       <div className="w-100 text-center mb-5">
         <span className="h3  titre4">
           Let’s see what <span className="titre4s">patient</span> says!
