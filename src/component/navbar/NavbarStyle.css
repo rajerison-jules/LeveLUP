@@ -1,0 +1,600 @@
+.margin--perso {
+  margin-right: 3vw;
+  margin-left: 7vw;
+  margin-top: 0 !important;
+  width: 100vw !important;
+  background-color: none;
+}
+.navy {
+  z-index: 6000;
+}
+.margin--perso2 {
+  margin-left: 10% !important;
+  margin-right: 10% !important;
+}
+.btn--style {
+  border-radius: 100px;
+  min-width: 120px;
+  height: 50px;
+  font-size: 1rem;
+}
+.btn--style2 {
+  border-radius: 100px;
+  min-width: 120px;
+  height: 50px;
+  font-size: 1rem;
+  margin-right: 50px;
+  box-shadow: 3px 5px 5px rgb(174, 173, 173);
+}
+.btn--style3 {
+  border-radius: 100px;
+  min-width: 120px;
+  height: 50px;
+  font-size: 1rem;
+  margin-right: 50px;
+
+  background: white !important;
+  border: thin solid rgb(0, 145, 255);
+  color: rgb(0, 145, 255);
+}
+.menu {
+  z-index: 10000;
+  position: absolute;
+  right: 0;
+}
+.titre--perso {
+  font-family: CircularStd-Black;
+  color: #10002b;
+}
+.sous--titre {
+  font-size: 0.7rem;
+  color: grey;
+}
+.button--titre {
+  background: rgb(255, 157, 111);
+  background: linear-gradient(
+    143deg,
+    rgba(255, 157, 111, 1) 8%,
+    rgba(245, 162, 162, 1) 40%,
+    rgba(255, 2, 58, 1) 100%
+  );
+  border: none;
+  color: white;
+  box-shadow: rgb(211, 124, 143) 0px 5px 15px;
+}
+.position--perso {
+  position: absolute;
+  top: -260px;
+}
+.titre--container {
+  width: 20vw;
+}
+.banner--perso {
+  position: relative;
+  height: 120vh;
+  top: 100px;
+  width: 100vw;
+  overflow: hidden;
+}
+.banner--perso2 {
+  position: relative;
+  height: 70vh;
+  top: 0px;
+  width: 100vw;
+  overflow: hidden;
+}
+.position--perso2 {
+  position: relative;
+  top: -20vh;
+}
+.containt--body {
+  margin-top: 15vh !important;
+}
+.contenue--text {
+  font-family: CircularStd-Black;
+  position: absolute;
+  width: 40%;
+  left: 50%;
+}
+.paragraph {
+  font-family: CircularStd-Book;
+  color: #000;
+}
+.list--perso:hover {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  cursor: pointer;
+}
+.list--perso {
+  background: none;
+}
+
+/* Style the active class (and on mouse-over) */
+.text--footer {
+  font-size: 0.9em;
+  color: rgb(201, 201, 201);
+
+  margin: 3vh 0 !important;
+}
+.banner--style {
+  padding-top: 4vh !important;
+}
+.content3 {
+  width: 60vw;
+  position: relative;
+  overflow: hidden;
+}
+.content2 {
+  overflow-wrap: normal;
+}
+.imag {
+  width: 60vw;
+}
+.imag2 {
+  position: absolute;
+  top: 20%;
+  right: 10%;
+
+  animation: wobble; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 10s; /* don't forget to set a duration! */
+}
+.imag1 {
+  position: absolute;
+  bottom: 0;
+  left: 55px;
+}
+.imag3 {
+  position: absolute;
+  top: 60%;
+  left: 12%;
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 5s; /* don't forget to set a duration! */
+}
+.im1 {
+  width: 50vw;
+}
+.im2 {
+  width: 10vw;
+}
+.im3 {
+  width: 10vw;
+}
+.text--ban {
+  margin-left: 8vw;
+  overflow-wrap: normal;
+  right: -20%;
+}
+.titre {
+  font-size: 2vw;
+  text-shadow: 3px 5px 5px rgb(174, 173, 173);
+  font-weight: bold;
+}
+.text-normal {
+  font-size: max(1vw, 20px);
+}
+.text-normal2 {
+  font-size: 18px;
+  color: rgb(85, 86, 85);
+  text-shadow: none;
+  font-weight: 100;
+}
+.titre2 {
+  font-size: 5vw;
+  text-shadow: 3px 5px 5px rgb(174, 173, 173);
+  font-weight: bold;
+}
+.titre4 {
+  font-size: 3vw;
+  text-shadow: 3px 5px 5px rgb(174, 173, 173);
+  font-weight: bold;
+}
+.titre4s {
+  text-shadow: none;
+  color: rgb(49, 137, 232);
+
+  text-decoration: underline;
+  line-height: 0px;
+}
+.titre2s {
+  text-shadow: none;
+  color: rgb(49, 137, 232);
+  font-weight: 200;
+  text-decoration: underline;
+  line-height: 0px;
+}
+.bg-blur {
+  position: absolute;
+  top: -50px;
+  right: 0;
+}
+.bg-blur2 {
+  position: absolute;
+  bottom: 0px;
+  left: -10%;
+}
+.bg-blur3 {
+  position: absolute;
+  top: 0px;
+  left: -10%;
+}
+.bg-coeur {
+  background-position: right top;
+  background-repeat: no-repeat;
+  padding: 100px;
+  background-size: cover;
+}
+.imageq {
+  position: relative;
+  bottom: 25%;
+}
+.sp {
+  top: 0;
+}
+.main {
+  border-radius: 50%;
+  width: 400px;
+  height: 200px;
+  left: 20%;
+}
+.cirlce1 {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+
+  border-radius: 50%;
+  top: 0;
+  left: 20%;
+}
+.cirlce2 {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+
+  border-radius: 50%;
+  left: 80%;
+  bottom: 0;
+}
+.cirlce3 {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+
+  border-radius: 50%;
+  bottom: 100%;
+  left: 50%;
+}
+.cirlce4 {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+
+  border-radius: 50%;
+  bottom: 0;
+  left: 50%;
+}
+.cirlce5 {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+
+  border-radius: 50%;
+  bottom: 80%;
+  left: 60%;
+}
+.cirlcef {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+
+  border-radius: 50%;
+  bottom: 60%;
+  left: 90%;
+  animation: swing; /* referring directly to the animation's @keyframe declaration */
+}
+.me {
+  font-weight: 100;
+}
+.sec5 {
+  margin: 5vw;
+  height: 100vh;
+}
+.sec6 {
+  margin: 5vw;
+  height: 100vh;
+}
+.minicard {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 75% !important;
+  position: absolute;
+  background-color: white !important;
+  padding: 2vw;
+  border-radius: 20px;
+  bottom: -10%;
+  left: 12%;
+  z-index: 6000;
+}
+.minicard2 {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 75% !important;
+  position: absolute;
+  background-color: white !important;
+  padding: 2vw;
+  border-radius: 20px;
+  bottom: -40%;
+  left: 12%;
+  z-index: 6000;
+}
+.ima {
+  width: 40vw;
+}
+.miniTt {
+  font-size: 0.9vw;
+}
+.miniT {
+  color: #0bccc5;
+}
+.miniTT {
+  color: #fcb43a;
+}
+.dis {
+  width: 75%;
+  position: relative;
+}
+.dis2 {
+  width: 75%;
+  position: relative;
+  margin-left: 34px;
+}
+.entrer {
+  display: flex;
+}
+.far {
+  display: flex;
+}
+.loh {
+  margin-left: 10vw;
+}
+.linkk {
+  width: 100%;
+}
+.soratra {
+  font-size: 100%;
+}
+.abn {
+  padding: 0 5vw;
+  min-width: 50vw;
+}
+.tena {
+  padding: 0 2vw;
+}
+.titla {
+  font-size: 1.5vw;
+}
+.drako {
+  display: flex;
+}
+@media (max-width: 992px) {
+  .content--button .btn--style {
+    font-size: 20px !important;
+  }
+  .btn--style2 {
+    display: none;
+  }
+
+  .content--button {
+    justify-content: start !important;
+  }
+  .contain--style {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+  }
+  .titre {
+    font-size: 3vw;
+    text-shadow: 3px 5px 5px rgb(174, 173, 173);
+    font-weight: bold;
+  }
+  .titre2 {
+    font-size: 5vw;
+    text-shadow: 3px 5px 5px rgb(174, 173, 173);
+    font-weight: bold;
+  }
+  .titre3 {
+    display: none;
+  }
+  .navbar--style {
+    z-index: 2000;
+    padding: 70px;
+    background: white;
+  }
+  .text-normal2 {
+    font-size: 12px;
+    color: rgb(85, 86, 85);
+    text-shadow: none;
+    font-weight: 100;
+  }
+  .titre4 {
+    font-size: 25px;
+    text-shadow: 3px 5px 5px rgb(174, 173, 173);
+    font-weight: bold;
+  }
+  .cont {
+    display: none;
+  }
+  .bg-coeur {
+    background-position: right top;
+    background-repeat: no-repeat;
+    padding: 10px;
+    padding-top: 20px;
+    background-size: cover;
+  }
+  .dis {
+    width: 100%;
+    position: relative;
+  }
+  .minicard,
+  .minicard2 {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 100% !important;
+    position: static;
+    background-color: white !important;
+    padding: 5vw;
+    border-radius: 20px;
+
+    z-index: 6000;
+  }
+  .entrer {
+    display: flex;
+    flex-direction: column;
+  }
+  .ima {
+    width: 100%;
+    margin-top: 40px !important;
+  }
+  .miniTt {
+    font-size: 20px;
+  }
+  .mab {
+    margin: 0 5vw;
+  }
+  .sec5 {
+    margin: 20vw 5vw;
+    height: 100vh;
+  }
+  .sec6 {
+    margin: 30vw 0vw;
+    height: 100vh;
+  }
+  .far {
+    display: flex;
+
+    flex-direction: column;
+  }
+  .abn {
+    margin: 0 10vw;
+    padding-bottom: 5vh;
+  }
+  .loh {
+    margin: 10vw;
+  }
+  .titla {
+    font-size: 4vw;
+  }
+  .drako {
+    display: block;
+  }
+}
+@media (max-width: 540px) {
+  .logo-display {
+    display: none !important;
+  }
+  .content--button .btn--style {
+    font-size: 20px !important;
+  }
+  .btn--style2 {
+    display: none;
+  }
+
+  .content--button {
+    justify-content: start !important;
+  }
+  .contain--style {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+  }
+  .titre {
+    font-size: 3vw;
+    text-shadow: 3px 5px 5px rgb(174, 173, 173);
+    font-weight: bold;
+  }
+  .titre2 {
+    font-size: 5vw;
+    text-shadow: 3px 5px 5px rgb(174, 173, 173);
+    font-weight: bold;
+  }
+  .titre3 {
+    display: none;
+  }
+  .navbar--style {
+    z-index: 2000;
+    padding: 70px;
+    background: white;
+  }
+  .text-normal2 {
+    font-size: 12px;
+    color: rgb(85, 86, 85);
+    text-shadow: none;
+    font-weight: 100;
+  }
+  .titre4 {
+    font-size: 25px;
+    text-shadow: 3px 5px 5px rgb(174, 173, 173);
+    font-weight: bold;
+  }
+  .cont {
+    display: none;
+  }
+  .bg-coeur {
+    background-position: right top;
+    background-repeat: no-repeat;
+    padding: 10px;
+    padding-top: 20px;
+    background-size: cover;
+  }
+  .dis {
+    width: 100%;
+    position: relative;
+  }
+  .minicard,
+  .minicard2 {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 100% !important;
+    position: static;
+    background-color: white !important;
+    padding: 5vw;
+    border-radius: 20px;
+
+    z-index: 6000;
+  }
+  .entrer {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 2vw !important;
+  }
+  .ima {
+    width: 100%;
+    margin-top: 10px !important;
+  }
+  .miniTt {
+    font-size: 20px;
+  }
+  .mab {
+  }
+  .sec5 {
+    margin: 20vw 0vw;
+    height: 100vh;
+  }
+  .sec6 {
+    margin: 30vw 0vw;
+    height: 100vh;
+  }
+  .far {
+    display: flex;
+
+    flex-direction: column;
+  }
+  .abn {
+    margin: 0 5vw;
+    padding-bottom: 5vh;
+  }
+  .loh {
+    margin: 5vw;
+  }
+  .titla {
+    font-size: 4vw;
+  }
+  .drako {
+    display: block;
+  }
+}
