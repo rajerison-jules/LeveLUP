@@ -295,11 +295,11 @@
 }
 .sec5 {
   margin: 5vw;
-  height: 100vh;
+  height: 80vh;
 }
 .sec6 {
   margin: 5vw;
-  height: 100vh;
+  height: 70vh;
 }
 .minicard {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -573,11 +573,11 @@
   }
   .sec5 {
     margin: 20vw 0vw;
-    height: 100vh;
+    height: 120vh;
   }
   .sec6 {
-    margin: 30vw 0vw;
-    height: 100vh;
+    margin: 0vw 0vw;
+    height: 120vh;
   }
   .far {
     display: flex;

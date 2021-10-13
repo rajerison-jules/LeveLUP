@@ -16,7 +16,7 @@ export default function Section3() {
     : [];
 
   return (
-    <div className="step--component m-5 mb-0 pl-5">
+    <div className=" sec3 step--component m-5 mb-0 pl-5">
       <AnimatedOnScroll animationIn="bounceInLeft">
         <div className="w-100 text-center mb-5">
           <span className="h3  titre4">
