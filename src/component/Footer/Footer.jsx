@@ -81,7 +81,7 @@ export default function Footer() {
         </div>
         <div className="  col-md-11">
           <span className="  text--footer">
-            &copy; Copyright 2021 The LOGO All Rights Reserved.
+            &copy; Copyright 2021 The LOGO All Rights Reserveds.
           </span>
         </div>
       </div>
