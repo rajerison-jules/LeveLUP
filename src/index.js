@@ -9,9 +9,7 @@ import "animate.css";
 
 ReactDOM.render(
   <React.StrictMode>
-    <FirebaseContext.Provider value={storage}>
-      <App />
-    </FirebaseContext.Provider>
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );
